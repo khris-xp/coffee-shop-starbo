@@ -1,14 +1,13 @@
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import BaseLayout from "./layouts/BaseLayout";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <div className="xl:mx-40">
+    <BaseLayout>
+      <div className="xl:mx-40 xl:my-10">
         <Hero />
       </div>
-    </div>
+    </BaseLayout>
   );
 }
 
