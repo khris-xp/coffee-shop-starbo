@@ -1,7 +1,11 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-export default function BaseLayout({ children }: React.PropsWithChildren<{}>) {
+interface IChildren {
+  children: React.ReactNode;
+}
+
+export default function BaseLayout({ children }: IChildren) {
   return (
     <div className="base-layout">
       <Navbar />
