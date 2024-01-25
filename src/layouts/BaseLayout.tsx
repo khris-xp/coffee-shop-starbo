@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Fragment } from "react";
 
 interface IChildren {
   children: React.ReactNode;
@@ -7,10 +8,10 @@ interface IChildren {
 
 export default function BaseLayout({ children }: IChildren) {
   return (
-    <div className="base-layout">
+    <Fragment>
       <Navbar />
       <main>{children}</main>
       <Footer />
-    </div>
+    </Fragment>
   );
 }
