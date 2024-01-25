@@ -17,7 +17,7 @@ const Hero = () => {
             Starting 4/22, get 25 Stars when you bring your clean, reusable cup
             into the café. Stars can quickly add up to Rewards.*
           </p>
-          <button className="hover:bg-slate-50 border-solid border-black border-2 rounded-full px-5 py-1 mt-2 text-center font-bold">
+          <button className="hover:bg-green-800 duration-300 hover:border-green-800 hover:text-white border-solid border-black border-2 rounded-full px-5 py-1 mt-2 text-center font-bold">
             Join now
           </button>
         </div>

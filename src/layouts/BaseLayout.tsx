@@ -10,7 +10,7 @@ export default function BaseLayout({ children }: IChildren) {
   return (
     <Fragment>
       <Navbar />
-      <main>{children}</main>
+      <main className="font-nunito">{children}</main>
       <Footer />
     </Fragment>
   );

@@ -6,6 +6,9 @@ export default {
       fontSize: {
         sm: ["14px"],
       },
+      fontFamily: {
+        nunito: ["Nunito", "sans-serif"],
+      },
       colors: {
         starGreen: "#D4E9E2",
         darkGreen: "#1E3932",
