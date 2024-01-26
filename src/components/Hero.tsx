@@ -2,10 +2,10 @@ const Hero = () => {
   return (
     <div className="flex flex-col lg:flex-row bg-starGreen">
       <div className="flex-none md:w-6/12 relative">
-        <div className="absolute w-full h-full bg-[url('https://pbs.twimg.com/media/CPCHoNuUcAI5F9v.png')] bg-contain lg:bg-cover lg:bg-center"></div>
+        <div className="absolute w-full h-full bg-[url('https://supplychainguru.co.th/wp-content/uploads/2021/08/Starbucks_unsplash_Erik-McLean-min.jpg')] bg-contain lg:bg-cover lg:bg-center"></div>
       </div>
       <img
-        src="https://pbs.twimg.com/media/CPCHoNuUcAI5F9v.png"
+        src="https://supplychainguru.co.th/wp-content/uploads/2021/08/Starbucks_unsplash_Erik-McLean-min.jpg"
         className="lg:hidden"
       />
       <div>

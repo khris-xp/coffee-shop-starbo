@@ -3,7 +3,7 @@ const Banner = () => {
     <div>
       <div className="flex flex-col lg:flex-row bg-darkGreen my-8 text-white">
         <div className="flex-none md:w-6/12 relative">
-          <div className="absolute w-full h-full bg-[url('https://media.cnn.com/api/v1/images/stellar/prod/200526153607-starbucks-coffee.jpg?q=w_1600,h_900,x_0,y_0,c_fill')] bg-contain lg:bg-cover lg:bg-center"></div>
+          <div className="absolute w-full h-full bg-[url('https://assets.brandinside.asia/uploads/2021/02/shutterstock_1410002591-scaled.jpg')] bg-contain lg:bg-cover lg:bg-center"></div>
         </div>
         <img
           src="https://media.cnn.com/api/v1/images/stellar/prod/200526153607-starbucks-coffee.jpg?q=w_1600,h_900,x_0,y_0,c_fill"

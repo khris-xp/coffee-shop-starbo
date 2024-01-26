@@ -12,7 +12,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="bg-white rounded-lg shadow w-full">
+    <footer className="bg-white rounded-lg shadow w-full font-nunito">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:pt-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
