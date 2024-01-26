@@ -8,7 +8,7 @@ const Thumbnail = () => {
             The trailblazing Starbucks Odyssey Blend™ boldly envisions a more
             sustainable future for the coffee industry.
           </p>
-          <button className="hover:bg-slate-50 hover:text-black border-solid border-white border-2 rounded-full px-5 py-1 mt-2 text-center font-bold">
+          <button className="hover:bg-slate-50 duration-300 hover:text-black border-solid border-white border-2 rounded-full px-5 py-1 mt-2 text-center font-bold">
             Learn how
           </button>
         </div>

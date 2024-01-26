@@ -16,7 +16,7 @@ const Banner = () => {
               Introducing our new Iced Toasted Vanilla Oatmilk Shaken Espresso
               with rich, creamy layers and nondairy goodness.
             </p>
-            <button className="hover:bg-slate-50 hover:text-black border-solid border-white border-2 rounded-full px-5 py-1 mt-2 text-center font-bold">
+            <button className="hover:bg-slate-50 duration-300 hover:text-black border-solid border-white border-2 rounded-full px-5 py-1 mt-2 text-center font-bold">
               Order now
             </button>
           </div>
