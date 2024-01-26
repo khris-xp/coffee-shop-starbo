@@ -2,6 +2,8 @@ import Hero from "./components/Hero";
 import BaseLayout from "./layouts/BaseLayout";
 import Card from "./components/Card";
 import { ProductData } from "./constants/Product";
+import Banner from "./components/Banner";
+import Thumbnail from "./components/Thumbnail";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           ))}
         </div>
       </div>
+      <Banner />
+      <Thumbnail />
     </BaseLayout>
   );
 }
